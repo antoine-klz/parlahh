@@ -26,9 +26,6 @@ export function TopBar({ onHelpClick }: TopBarProps) {
             <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
               <Bell className="h-4 w-4" />
             </Button>
-            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-              <User className="h-4 w-4" />
-            </Button>
             <Button variant="outline" size="sm">
               <Settings className="h-4 w-4 mr-2" />
               Einstellungen
